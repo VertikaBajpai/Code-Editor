@@ -3,31 +3,12 @@
 A modern, browser-based JavaScript code editor built using Next.js, Monaco Editor, Prettier, and Heroicons.
 It supports auto-fixing code, running JS instantly, and a built-in AI-style Help Panel using simple keyword-based responses.
 
-# 🚀 Features
-## 🧠 Smart Code Editor
+## 🚀 Features
+- 🧠 Smart Code Editor
+- 🔧  Auto-Fix Button
+- ▶️ Run Code Button
+- ❓ Help Panel
 
-- Built on Monaco Editor (VS Code's editor)
-- Clean UI with dark theme support
-- Real-time updates
-
-## 🔧  Auto-Fix Button
-
-- Formats code using Prettier
-- Removes syntax issues
-- Adds missing semicolons safely
-- Handles indentation
-
-## ▶️ Run Code Button
-
-- Executes JavaScript safely using an iframe sandbox
-- Captures console output
-- Displays results instantly
-
-## ❓ Help Panel
-
-A slide-out / modal-based help system
-Keyword-based responses (e.g., “autofix”, “error”, “editor”, “run”)
-Users can type a question and instantly get guidance
 
 ## 📦 Libraries Used
 
