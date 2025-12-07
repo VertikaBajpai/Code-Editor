@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Code Editor with Auto-Fix, Run & Help Assistant
 
-## Getting Started
+A modern, browser-based JavaScript code editor built using Next.js, Monaco Editor, Prettier, and Heroicons.
+It supports auto-fixing code, running JS instantly, and a built-in AI-style Help Panel using simple keyword-based responses.
 
-First, run the development server:
+## 🚀 Features
+- 🧠 Smart Code Editor
+- 🔧  Auto-Fix Button
+- ▶️ Run Code Button
+- ❓ Help Panel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Libraries Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 16
+- React (use client)
+- Monaco Editor (@monaco-editor/react)
+- Prettier (standalone)
+- Prettier plugins
+- Heroicons
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Installation Steps
+- git clone https://github.com/VertikaBajpai/Code-Editor.git
+- cd your-repo-name
+- npm install
+- npm run dev
 
-## Learn More
+## 📘 Usage
+### 1. Edit Code
+→ Type any JavaScript code inside the Monaco Editor.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Auto-Fix
+Click Auto Fix 🔧
+→ Prettier formats & fixes your code automatically.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Run Code
+Click Run ▶️
+→ Output appears in the Results Window.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4. Ask for Help
+Click Help ❓
+→ A panel opens where you can type questions like:
+- What language does the code editor support
+- What does auto-fix do?
+- What does run button do?
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 Technologies
+- Technology	Purpose
+- Next.js	App framework
+- React	Component logic
+- Monaco Editor	VS Code editor engine
+- Prettier	Code formatting
+- Heroicons	UI icons
+- CSS Modules / Tailwind (optional)	Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Screenshots
+<img width="1918" height="840" alt="image" src="https://github.com/user-attachments/assets/7d347624-37ca-4fb9-9e1d-b3c944134d82" />
+
+  
+## 🤝 Contributing
+Contributions are welcome!
+Feel free to fork and submit PRs.
+
+## 📜 License
+MIT License © 2025 Vertika Bajpai
+
+
+
+
