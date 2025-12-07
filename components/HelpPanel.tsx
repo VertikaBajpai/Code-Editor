@@ -17,7 +17,7 @@ export default function HelpPanel({ open, onClose }: HelpPanelProps) {
     if (text.includes("run")) {
       setHelpReply("The Run button executes your JavaScript code.");
     } else if (text.includes("fix") || text.includes("autofix")) {
-      setHelpReply("Auto-Fix formats your code using Prettier.");
+      setHelpReply("Auto-Fix formats your code.");
     } else if (text.includes("error")) {
       setHelpReply("Errors occur due to syntax issues or undefined variables.");
     } else if (text.includes("editor")) {
