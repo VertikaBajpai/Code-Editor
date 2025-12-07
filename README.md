@@ -1,36 +1,35 @@
-✨ ## Code Editor with Auto-Fix, Run & Help Assistant
+## ✨ Code Editor with Auto-Fix, Run & Help Assistant
 
 A modern, browser-based JavaScript code editor built using Next.js, Monaco Editor, Prettier, and Heroicons.
 It supports auto-fixing code, running JS instantly, and a built-in AI-style Help Panel using simple keyword-based responses.
 
-🚀## Features
-🧠 # Smart Code Editor
+## 🚀 Features
+# 🧠 Smart Code Editor
 
 - Built on Monaco Editor (VS Code's editor)
 - Clean UI with dark theme support
 - Real-time updates
 
-🔧 # Auto-Fix Button
+# 🔧  Auto-Fix Button
 
 - Formats code using Prettier
 - Removes syntax issues
 - Adds missing semicolons safely
 - Handles indentation
 
-
-▶️ # Run Code Button
+# ▶️ Run Code Button
 
 - Executes JavaScript safely using an iframe sandbox
 - Captures console output
 - Displays results instantly
 
-❓ # Help Panel
+# ❓ Help Panel
 
 A slide-out / modal-based help system
 Keyword-based responses (e.g., “autofix”, “error”, “editor”, “run”)
 Users can type a question and instantly get guidance
 
-📦 # Libraries Used
+# 📦 Libraries Used
 
 - Next.js 16
 - React (use client)
@@ -39,13 +38,13 @@ Users can type a question and instantly get guidance
 - Prettier plugins
 - Heroicons
 
-🛠️ # Installation Steps
+# 🛠️ Installation Steps
 - git clone https://github.com/yourusername/your-repo-name.git
 - cd your-repo-name
 - npm install
 - npm run dev
 
-📘 Usage
+# 📘 Usage
 1. Edit Code
 → Type any JavaScript code inside the Monaco Editor.
 
@@ -66,7 +65,7 @@ Click Help ❓
 - What does run button do?
 
 
-🧩 Technologies
+# 🧩 Technologies
 - Technology	Purpose
 - Next.js	App framework
 - React	Component logic
@@ -75,7 +74,7 @@ Click Help ❓
 - Heroicons	UI icons
 - CSS Modules / Tailwind (optional)	Styling
   
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome!
 Feel free to fork and submit PRs.
 
