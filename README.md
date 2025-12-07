@@ -20,7 +20,7 @@ It supports auto-fixing code, running JS instantly, and a built-in AI-style Help
 - Heroicons
 
 ## 🛠️ Installation Steps
-- git clone https://github.com/yourusername/your-repo-name.git
+- git clone [https://github.com/VertikaBajpai/Code-Editor.git]
 - cd your-repo-name
 - npm install
 - npm run dev
