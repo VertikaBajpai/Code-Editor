@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+✨ Code Editor with Auto-Fix, Run & Help Assistant
 
-## Getting Started
+A modern, browser-based JavaScript code editor built using Next.js, Monaco Editor, Prettier, and Heroicons.
+It supports auto-fixing code, running JS instantly, and a built-in AI-style Help Panel using simple keyword-based responses.
 
-First, run the development server:
+🚀 Features
+🧠 Smart Code Editor
 
-```bash
+Built on Monaco Editor (VS Code's editor)
+
+Clean UI with dark theme support
+
+Real-time updates
+
+🔧 Auto-Fix Button
+
+Formats code using Prettier
+
+Removes syntax issues
+
+Adds missing semicolons safely
+
+Handles indentation
+
+Prevents unnecessary semicolons (const func = () =>; is fixed)
+
+▶️ Run Code Button
+
+Executes JavaScript safely using an iframe sandbox
+
+Captures console output
+
+Displays results instantly
+
+❓ Help Panel
+
+A slide-out / modal-based help system
+
+Keyword-based responses (e.g., “format”, “error”, “semicolon”, “prettier”)
+
+Users can type a question and instantly get guidance
+
+📦 Libraries Used
+
+Next.js 16
+
+React (use client)
+
+Monaco Editor (@monaco-editor/react)
+
+Prettier (standalone)
+
+Prettier plugins
+
+prettier/plugins/babel
+
+prettier/plugins/estree
+
+Heroicons
+
+📁 Project Structure
+/app
+ └── editor/
+      └── page.tsx   → Main editor page UI + logic
+/components
+ └── HelpPanel.tsx   → Help assistant panel component
+
+🛠️ Installation
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📘 Usage
+1. Edit Code
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Type any JavaScript code inside the Monaco Editor.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Auto-Fix
 
-## Learn More
+Click Auto Fix 🔧
+→ Prettier formats & fixes your code automatically.
 
-To learn more about Next.js, take a look at the following resources:
+3. Run Code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Click Run ▶️
+→ Output appears in the Results Window.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Ask for Help
 
-## Deploy on Vercel
+Click Help ❓
+→ A panel opens where you can type questions like:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+What language does the code editor support
+What does auto-fix do?
+What does run button do?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+🧩 Technologies
+Technology	Purpose
+Next.js	App framework
+React	Component logic
+Monaco Editor	VS Code editor engine
+Prettier	Code formatting
+Heroicons	UI icons
+CSS Modules / Tailwind (optional)	Styling
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork and submit PRs.
+
+📜 License
+
+MIT License © 2025 Vertika Bajpai
