@@ -53,12 +53,16 @@ Click Help ❓
 - Prettier	Code formatting
 - Heroicons	UI icons
 - CSS Modules / Tailwind (optional)	Styling
+
+## Screenshots
+<img width="1918" height="840" alt="image" src="https://github.com/user-attachments/assets/7d347624-37ca-4fb9-9e1d-b3c944134d82" />
+
   
 ## 🤝 Contributing
 Contributions are welcome!
 Feel free to fork and submit PRs.
 
-📜 License
+## 📜 License
 MIT License © 2025 Vertika Bajpai
 
 
